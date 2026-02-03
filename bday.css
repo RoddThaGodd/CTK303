@@ -1,0 +1,85 @@
+body { background-color: #ffffff; }
+
+#wrapper {
+  margin: 24px auto;
+  padding: 0;
+  width: 1200px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+body {
+    grid-column: span 12;
+}
+
+header {
+    grid-column: span 12;
+    font-family: "gunplay-spraypaint", sans-serif;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 10px 10px 10px black;
+    color: green
+}
+
+h1 {
+    grid-column: span 9;
+    
+}
+
+nav {
+  grid-column: span 12;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: "gunplay-spraypaint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 0;
+  background-color: #cc0000;
+  color: #ffffff;
+  flex: 1 1 auto;
+  text-align: center;
+  min-width: 120px;
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+}
+
+
+main {
+    grid-column: span 12;
+    font-family: "gunplay-damage", sans-serif;
+font-weight: 400;
+font-style: normal;
+font: size 80px;
+}
+
+main p {
+    color:#cc0000
+}
+
+h2 {
+    grid-column: span 3;
+}
+
+.lyrics {
+    grid-column: span 9;
+}

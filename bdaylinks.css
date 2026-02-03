@@ -1,0 +1,28 @@
+nav li {
+    border: 1px solid rgb(0, 0, 0);
+    width: 290px;
+    padding: 0px;
+    margin: 2px;
+    background: rgb(25,17,150);
+    background-image: linear-gradient(to right top, #000000, #1f0612, #320822, #440436, #52004f, #5c0062, #650078, #6a008f, #7500a1, #7f00b3, #8a00c6, #9400d9);
+    color: white;
+    display:inline-block;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px #2a9c03;
+    grid-column: span 6;
+    }
+    nav li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: background-color 3s, font-size 1s;
+        
+    }
+    
+    nav li a:hover {
+        background: rgb(25,17,150);
+    background: linear-gradient(142deg, rgb(2, 68, 6) 0%, rgb(1, 97, 27) 6%, rgb(94, 247, 130) 100%);
+    border-radius: 10px;
+    font-size: 48px;
+    }
